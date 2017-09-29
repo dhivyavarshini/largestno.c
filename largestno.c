@@ -2,21 +2,21 @@
 #include<conio.h>
 void main()
 {
-int n1,n2,n3;
+double n1,n2,n3;
 clrscr();
 printf("enter the numbers");
-scanf("%d %d %d",&n1,&n2,&n3);
+scanf("%lf %lf %lf",&n1,&n2,&n3);
 if(n1>=n2&&n1>=n3)
 {
-printf("%d is largest",n1);
+printf("%lf is largest",n1);
 }
 elseif(n2>=n1&&n2>=n3)
 {
-printf("%d is the largest",n2)
+printf("%lf is the largest",n2)
 }
 else
 {
-printf("%d is the largest",n3);
+printf("%lf is the largest",n3);
 }
 getch();
 }
